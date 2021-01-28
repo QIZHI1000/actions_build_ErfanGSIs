@@ -61,8 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/cowtransfer | SH
-              ./cowtransfer-uploader / MIX3 5G GSI
-              ./cowtransfer-uploader -cookie = "1942735340@qq.com" = lipeng1226;
+              ./cowtransfer-uploader /usr
               
               
 
