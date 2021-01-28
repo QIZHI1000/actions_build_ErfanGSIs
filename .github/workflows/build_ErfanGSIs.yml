@@ -60,7 +60,7 @@ jobs:
        
        - name: Upload GSI to BitSend
          run: |
-              curl -sL https://git.io/cowtransfer | SH
+              curl -sL https://git.io/cowtransfer | sh
               ./cowtransfer-uploader /usr
               
               
